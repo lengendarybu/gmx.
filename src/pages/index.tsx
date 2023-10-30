@@ -122,8 +122,6 @@ export default function Home() {
         </div>
       </header>
 
-      <button onClick={notify}>Notify!</button>
-
       <div className="pb-60">
         <form
           onSubmit={handleSubmit((values) => {
